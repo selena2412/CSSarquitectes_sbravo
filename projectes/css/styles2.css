@@ -1,0 +1,88 @@
+#menu ul li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#menu ul li{
+	list-style: none;
+}
+
+p{
+	margin-left: 50px;
+}
+
+.w3-content {
+	float: right;
+	width: 250px;
+	height: 150px;
+	text-align: center;
+}
+.Slide img {
+	width: 250px;
+	height: 150px;
+}
+
+.titulo{
+		font-size: 30px;
+}
+
+.titulo2 {
+	font-size: 15px;
+}
+
+.texto {
+	font-size: 11px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 132px 50px 100px 100px 90px 100px 90px 120px;
+  grid-template-rows: 10% 10% 10%;
+  grid-template-areas: ". Foto1 Foto2 Foto2 . . . . ." "foto3 . . . Foto6 foto7 Foto8 Foto9 ." "foto3 foto4 foto4 foto5 Foto6 foto7 Foto8 Foto9 Foto10";
+	grid-column-gap: 10px;
+}
+.foto3 { grid-area: foto3; }
+
+.foto5 { grid-area: foto5; }
+
+.foto4 { grid-area: foto4; }
+
+.foto7 { grid-area: foto7; }
+
+.Foto6 { grid-area: Foto6; }
+
+.Foto8 { grid-area: Foto8; }
+
+.Foto9 { grid-area: Foto9; }
+
+.Foto10 { grid-area: Foto10; }
+
+.Foto1 { grid-area: Foto1; }
+
+.Foto2 { grid-area: Foto2; }
+
+
+@media (max-width: 1000px) {
+	#casb {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+	#menu {
+		margin-right: 50px;
+	}
+	.w3-content {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+	p{
+		margin-top: auto;
+		margin-left: auto;
+	}
+	.grid-container {
+		display: inline-block;
+		text-align: center;
+	}
+}

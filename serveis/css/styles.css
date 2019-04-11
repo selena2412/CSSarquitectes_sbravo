@@ -1,0 +1,149 @@
+/*Todo*/
+
+body{
+	
+}
+/* NAV */
+ul{
+	list-style: none;
+	margin: 0;
+}
+nav{
+	padding-top: 30px;
+}
+.menu ul li{
+	display: inline-block;
+	top: 15px;
+}
+
+.menu ul li a{
+	color:black;
+	text-decoration: none;
+	border-style: solid;
+	border-color: white;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-left-style: none;
+}
+
+.menu ul li a{
+	background-color: #D3D3D3;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+nav ul {
+	background-color: #D3D3D3;
+	padding: 5px;
+}
+/*Serveis*/
+#text {
+	margin-top: 100px;
+}
+.margg {
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.servimag {
+	float: right;
+	margin-top: -230px;
+}
+.servimag img{
+	width: 100%;
+	height: 100%;
+	}
+.tit {
+	font-weight: bold;
+}
+.servtexto1 {
+	padding-top: 155px;
+	margin-left: 100px;
+	font-size: 10px;
+}
+.servtexto2 {
+	padding-top: 15px;
+	margin-left: 100px;
+	font-size: 10px;
+}
+.servtexto3 {
+	padding-top: 15px;
+	margin-left: 100px;
+	font-size: 10px;
+}
+.servtexto4 {
+	padding-top: 15px;
+	margin-left: 100px;
+	font-size: 10px;
+}
+.servtexto5 {
+	padding-top: 15px;
+	margin-left: 100px;
+	font-size: 10px;
+}
+.servtexto6 {
+	padding-top: 15px;
+	margin-left: 100px;
+	font-size: 10px;
+}
+
+.menu a:hover{
+	color:#4AB4A7;
+}
+
+@media (max-width: 1000px) {
+	* {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu ul li{
+		display: block;
+		padding-top: 15px;
+	}
+	.menu ul li a{
+		color:black;
+		text-decoration: none;
+		border-style: solid;
+		border-color: #D3D3D3;
+		background-color: #D3D3D3;
+		padding-left: 15px;
+		padding-right: 15px;
+	}	
+	.margg {
+		margin-left: auto;
+	}
+	.servimag {
+		float: none;
+		margin-top: auto;
+	}
+	.servtexto1 {
+		font-size: 10px;
+		margin-left: auto;
+	}
+	.servtexto2 {
+		padding-top: 15px;
+		margin-left: auto;
+		font-size: 10px;
+	}
+	.servtexto3 {
+		padding-top: 15px;
+		margin-left: auto;
+		font-size: 10px;
+	}
+	.servtexto4 {
+		padding-top: 15px;
+		margin-left: auto;
+		font-size: 10px;
+	}
+	.servtexto5 {
+		padding-top: 15px;
+		margin-left: auto;
+		font-size: 10px;
+	}
+	.servtexto6 {
+		padding-top: 15px;
+		margin-left: auto;
+		font-size: 10px;
+	}
+}

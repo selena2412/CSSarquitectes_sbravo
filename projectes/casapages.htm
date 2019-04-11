@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles2.css">
+	<title>Casa de Pàges</title>
+</head>
+<body id="casb">
+		<nav>
+		<div id="menu">
+			<ul>
+				<li><a href="rehabilitacio.htm">← tornar</a></li>
+			</ul>
+		</div>
+		</nav>
+		<!--texto-->
+		<p class="titulo">Casa de Pagès</p>
+			<div class="w3-content">
+				<div class="Slide"><img src="../img/1.jpg" ></div>
+				<div class="Slide"><img src="../img/2.jpg"></div>
+				<div class="Slide"><img src="../img/3.jpg"></div>
+				<div class="Slide"><img src="../img/4.jpg"></div>
+				<div class="Slide"><img src="../img/5.jpg"></div>
+				<div class="Slide"><img src="../img/6.jpg"></div>
+				<div class="Slide"><img src="../img/7.jpg"></div>
+				<div class="Slide"><img src="../img/8.jpg"></div>
+				<div class="Slide"><img src="../img/9.jpg"></div>
+				<div class="Slide"><img src="../img/11.jpg"></div>
+				<!--Boton-->
+				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+			</div>
+		<p class="titulo2">Remodelació de Cal Porrerà a Casa de Pagès</p>
+		<p class="titulo2">+ habitatge dels promotors, Porrera</p>
+
+		<p class="texto">REHABILITACIÓ INTEGRAL D'UNA CASA PAIRAL "CAL PORRERÀ",</p>
+		<p class="texto">EDIFICI CATALOGAT AL NUCLI ANTIC DE PORRERA.</p>
+		<p class="texto">S'HA DISSENYAT UNA REHABILITACIÓ RESPECTANT L'INTERIOR DE</p>
+		<p class="texto">L'EDIFICI I L'ENTORN, PROPOSANT UNA SOLUCIÓ QUE SEGUEIXI</p>
+		<p class="texto">AMB LA LÍNIA ACTUAL DE L'EDIFICI RESPECTANT ELS ELEMENTS</p>
+		<p class="texto">ORIGINALS ORNAMENTALS I COMPOSITIUS.</p>
+		<!--Fin texto-->
+
+		<!--Imagenes-->
+	<div class="grid-container">
+	  <div class="foto3"><img src="../img/3.jpg"></div>
+	  <div class="foto5"><img src="../img/5.jpg"></div>
+	  <div class="foto4"><img src="../img/4.jpg"></div>
+	  <div class="foto7"><img src="../img/7.jpg"></div>
+	  <div class="Foto6"><img src="../img/6.jpg"></div>
+	  <div class="Foto8"><img src="../img/8.jpg"></div>
+	  <div class="Foto9"><img src="../img/9.jpg"></div>
+	  <div class="Foto10"><img src="../img/11.jpg"></div>
+	  <div class="Foto1"><img src="../img/1.jpg"></div>
+	  <div class="Foto2"><img src="../img/2.jpg"></div>
+	</div>
+</body>
+<!--Script Slide-->
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("Slide");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</html>
